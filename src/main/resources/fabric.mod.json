@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "jockeycreator_lostallmymoney",
+  "version": "${version}",
+  "name": "JockeyCreator",
+  "description": "Create jockeys !",
+  "authors": [
+    "lostallmymoney"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/lostallmymoney",
+    "sources": "https://github.com/lostallmymoney/JockeyCreator"
+  },
+  "license": "MIT",
+  "icon": "assets/jockeyCreator_lostallmymoney/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jockeyCreator.JockeyCreator"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "jockeyCreator_lostallmymoney.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12"
+  }
+}
